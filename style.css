@@ -1,0 +1,28 @@
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  max-width: 75px;
+}
+
+nav {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+nav ul {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+/*# sourceMappingURL=style.css.map */

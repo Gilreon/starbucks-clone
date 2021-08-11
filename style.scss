@@ -1,0 +1,30 @@
+
+.img {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 75px;
+   
+}
+
+
+nav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top:0;
+    width: 100vw;
+
+    .list1{
+      
+        
+    }
+
+    ul {
+        list-style-type: none;
+        display: inline-flex;
+    }
+
+}
