@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: gray;
 }
 
-header {
+.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,24 +17,89 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px 10%;
+  padding: 0px;
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+body {
+  background-color: gray;
+}
+
+.main-container {
+  padding-top: 125px;
+  margin-top: 8px;
+}
+
+.main-container .topbox {
+  background: url("images/better-stars.png") no-repeat;
+  background-position: right;
+  background-color: #d4e9e2;
+  width: 100vw;
+  height: 300px;
+}
+
+.main-container .topbox h2, .main-container .topbox p, .main-container .topbox button {
+  font-family: 'Noto Sans JP', sans-serif;
+  padding: 10px;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.main-container .topbox h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 2.8rem;
+  font-weight: 600;
+  font-size: 2.2rem;
 }
 
 .logo {
-  max-width: 75px;
+  max-width: 100px;
   cursor: pointer;
 }
 
 .nav-links {
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nav-links li {
-  display: inline-block;
+  padding: 15px;
 }
 
 .nav-links a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.links2 {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
