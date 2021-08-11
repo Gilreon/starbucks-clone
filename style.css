@@ -409,6 +409,7 @@ body {
   -ms-flex-line-pack: baseline;
       align-content: baseline;
   width: 100vw;
+  height: 30vh;
   margin: 25px;
   padding-right: 50px;
   padding-left: 50px;
