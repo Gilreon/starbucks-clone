@@ -247,7 +247,6 @@ body {
 .main-container .thirdBox .tab:active {
   border-bottom: 4px solid lightgreen;
   border-color: lightgreen;
-  display: visible;
 }
 
 .main-container .thirdBox .tab-content {
