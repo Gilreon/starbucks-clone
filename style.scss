@@ -130,6 +130,10 @@ body {
             background-color:  rgba(0,130,72,.9);
             border-color: rgba(0,130,72,.9);;
         }
+
+        a {
+            color: #008248;
+        }
         
     }
 
@@ -197,6 +201,10 @@ body {
             text-align: center;
 
         }
+
+        a {
+            color: #008248;
+        }
         
     }
     
@@ -208,7 +216,7 @@ body {
         h2 {
             padding-top: 15px;
             text-align: center;
-    
+            font-weight: 600;
 
         }
 
@@ -254,6 +262,7 @@ body {
 
             .contentImage {
                 margin-left: 0;
+                margin-right: 80px;
 
                  h2 {
                      font-size: 1.5rem;
@@ -285,6 +294,7 @@ body {
             color:#cba258;
             font-size: 1rem;
         }
+
 
     }
 
@@ -366,11 +376,16 @@ body {
             text-align: center;
 
         }
+
+        a {
+            color: #008248;
+        }
         
     }
 
     .fifthBox {
         background-color: #f3f1e7;
+        padding-bottom: 50px;
 
         h2 {
             padding-top: 5rem;
@@ -406,6 +421,10 @@ body {
             margin: 0;
             padding: 0;
 
+        }
+
+        .solo2 {
+            width: 30% !important;
         }
 
         .imgBottom {

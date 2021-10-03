@@ -124,6 +124,10 @@ body {
   border-color: rgba(0, 130, 72, 0.9);
 }
 
+.main-container .topbox a {
+  color: #008248;
+}
+
 .main-container .second-box {
   width: 100vw;
   height: 600px;
@@ -203,6 +207,10 @@ body {
   text-align: center;
 }
 
+.main-container .second-box a {
+  color: #008248;
+}
+
 .main-container .thirdBox {
   text-align: center;
   background-color: rgba(212, 233, 226, 0.33);
@@ -212,6 +220,7 @@ body {
 .main-container .thirdBox h2 {
   padding-top: 15px;
   text-align: center;
+  font-weight: 600;
 }
 
 .main-container .thirdBox .tabs {
@@ -259,6 +268,7 @@ body {
 
 .main-container .thirdBox .tab-content .contentImage {
   margin-left: 0;
+  margin-right: 80px;
 }
 
 .main-container .thirdBox .tab-content .contentImage h2 {
@@ -385,8 +395,13 @@ body {
   text-align: center;
 }
 
+.main-container .fourthBox a {
+  color: #008248;
+}
+
 .main-container .fifthBox {
   background-color: #f3f1e7;
+  padding-bottom: 50px;
 }
 
 .main-container .fifthBox h2 {
@@ -423,6 +438,10 @@ body {
   width: 20%;
   margin: 0;
   padding: 0;
+}
+
+.main-container .fifthBox .solo2 {
+  width: 30% !important;
 }
 
 .main-container .fifthBox .imgBottom {
