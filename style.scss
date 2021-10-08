@@ -28,8 +28,9 @@ font-family: 'Noto Sans JP', sans-serif;
     top: 0;
     width: 100vw;
     margin-bottom: 35px;
-    padding-right: 15vw;
-    padding-left: 15vw;
+    padding-right: 0;
+    padding-left: 0;
+    
     
 }
 
@@ -75,20 +76,29 @@ body {
 .main-container {
     padding-top: 125px;
     margin-top: 8px;
-    
+   
 
     .topbox {
-        background: url("images/better-stars.png") no-repeat; 
+        background: url("https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png") no-repeat; 
         background-position: 75% 50%;
         background-color: rgb(212, 233, 226);
-        width: 100vw;
-        height: 400px;
+        background-size: auto 100%;
+        width: 100%;
+        height: 45vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+       
+        
 
 
         .left-content {
-            padding-top: 4rem;
-            margin-left: 15vw;
-
+            padding-top: 4rem !important;
+            padding-bottom: 4rem !important;
+            width: 400px;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            margin: 0;
         }
 
         h2, p {
@@ -112,9 +122,18 @@ body {
 
         }
 
+        .btnMobile {
+          display:none;
+        }
+
+        .anchorMobile {
+            display:none;
+        }
+
         .belowBtn {
             padding-top: 40px;
             font-size: 1.2rem;
+            
         }
 
         button {
@@ -528,24 +547,113 @@ button:hover {
 
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+@media  (max-width: 641px) {
+
+    .second-box {
+        margin-bottom: 5rem !important;
+
+        .flexContainer {
+            flex-direction: column !important;
+            
+
+            .mobile {
+                margin-bottom: 3rem;
+            }
+        }
+
+        .content {
+            display: none !important;
+        }
+
+        .contentmobile {
+            display: flex !important;
+            flex-direction: row !important ;
+            
+          
+        }
+
+        .mobileText {
+            margin-left: 2rem;
+            text-align: left;
+            
+            h2 {
+                text-align: left;
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: .8rem;
+            }
+
+            
+        }
+    }
 
   }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+// Medium devices (tablets, 576px to 768px)
+@media (min-width: 576px) and (max-width: 768px){ 
+
+    .main-container {
+        .topbox {
+            display: flex;
+            flex-direction: column;
+            background-size: auto 64%;
+            background-position: bottom -12rem right -22rem;
+            height: 900px;
+
+            .left-content {
+                margin: 0 auto;
+                padding-top: 2rem !important;
+                width: unset;
+                
+                h2 {
+                    font-size: 1.7rem !important;
+                    line-height: 2.4rem;
+                    text-align: center;
+                }
+
+                .btnMobile {
+                    margin-left: 4rem;
+                    display: inline ;
+                }
+
+               button {
+                display: none;
+               }
+
+               .belowBtn {
+                   display: none;
+               }
+
+               .anchorMobile {
+                   display: flex;
+                   justify-content: center;
+                   margin-top: 1rem;
+               }
+            }
+        }
+    }
+ }
+
+ @media (max-width: 800px) {
 
  }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
-
+   
+    
    
  }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
-
+    .header {
+        display: flex;
+        padding-right: 15vw;
+        padding-left: 15vw;
+    }
  }
 
 
