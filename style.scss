@@ -226,6 +226,9 @@ body {
             color: #008248;
         }
         
+        .mobile {
+            display: none;
+        }
     }
     
     .thirdBox {
@@ -399,6 +402,9 @@ body {
             color: #008248;
         }
         
+        .mobile {
+            display: none;
+        }
     }
 
     .fifthBox {
@@ -557,6 +563,7 @@ button:hover {
             
 
             .mobile {
+                display: inline;
                 margin-bottom: 3rem;
             }
         }
@@ -632,9 +639,13 @@ button:hover {
             display: none !important;
             padding-bottom: 10px !important;
 
-         .mobileText::last-of-type {
+         .mobileText:last-of-type {
              padding-bottom: 50px !important;
          }          
+        }
+
+        .mobile {
+            display: inline !important;
         }
 
         .contentmobile {

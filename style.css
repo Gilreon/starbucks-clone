@@ -233,6 +233,10 @@ body {
   color: #008248;
 }
 
+.main-container .second-box .mobile {
+  display: none;
+}
+
 .main-container .thirdBox {
   text-align: center;
   background-color: rgba(212, 233, 226, 0.33);
@@ -418,6 +422,10 @@ body {
   color: #008248;
 }
 
+.main-container .fourthBox .mobile {
+  display: none;
+}
+
 .main-container .fifthBox {
   background-color: #f3f1e7;
   padding-bottom: 50px;
@@ -565,6 +573,7 @@ button:hover {
             flex-direction: column !important;
   }
   .second-box .flexContainer .mobile {
+    display: inline;
     margin-bottom: 3rem;
   }
   .second-box .content {
@@ -623,8 +632,11 @@ button:hover {
     display: none !important;
     padding-bottom: 10px !important;
   }
-  .fourthBox .content .mobileText::last-of-type {
+  .fourthBox .content .mobileText:last-of-type {
     padding-bottom: 50px !important;
+  }
+  .fourthBox .mobile {
+    display: inline !important;
   }
   .fourthBox .contentmobile {
     display: -webkit-box !important;
