@@ -590,6 +590,116 @@ button:hover {
   .second-box .mobileText p {
     font-size: .8rem;
   }
+  .thirdBox .contentImage {
+    margin: 10px auto 0 auto !important;
+  }
+  .thirdBox .contentImage h2 {
+    font-size: 1rem !important;
+  }
+  .thirdBox .contentImage h4 {
+    font-size: .8rem !important;
+    margin: 0 55px 40px 55px !important;
+  }
+  .thirdBox .image {
+    margin-top: 30px;
+  }
+  .thirdBox .active[data-tab-content] {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fourthBox .fourthInnerBox h4 {
+    width: auto;
+    font-size: .75rem !important;
+  }
+  .fourthBox .flexContainer {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .fourthBox .content {
+    display: none !important;
+    padding-bottom: 10px !important;
+  }
+  .fourthBox .content .mobileText::last-of-type {
+    padding-bottom: 50px !important;
+  }
+  .fourthBox .contentmobile {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .fourthBox .contentMobile3 {
+    padding-bottom: 50px !important;
+  }
+  .fourthBox .mobileText {
+    margin-left: 2rem;
+    text-align: left;
+  }
+  .fourthBox .mobileText h2 {
+    text-align: left;
+    font-size: 1rem;
+  }
+  .fourthBox .mobileText p {
+    font-size: .8rem;
+  }
+  .fifthBox h4 {
+    padding-bottom: 2rem !important;
+  }
+  .fifthBox .grid1, .fifthBox .grid2 {
+    height: auto !important;
+  }
+  .fifthBox .grid {
+    width: auto !important;
+    margin: 0 !important;
+  }
+  .fifthBox img {
+    max-width: 70px;
+    width: 70px !important;
+  }
+  .fifthBox .imgBottom {
+    width: auto !important;
+  }
+  .fifthBox .grid1, .fifthBox .grid2, .fifthBox .grid3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: baseline;
+        align-content: baseline;
+    width: auto;
+    height: auto;
+    margin: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .fifthBox .grid1, .fifthBox .grid2 {
+    border-bottom: 2px solid gray;
+    margin-bottom: 50px !important;
+  }
+  .fifthBox .grid p {
+    font-size: .9rem;
+  }
+  .fifthBox .gridItem {
+    width: auto !important;
+    height: auto !important;
+    margin: 0px 10px 5px 15px !important;
+  }
+  .fifthBox .gridItem2-heading {
+    font-size: 1rem;
+  }
+  .fifthBox .gridItem2-text {
+    font-size: .5rem;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
