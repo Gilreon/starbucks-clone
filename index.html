@@ -7,27 +7,33 @@
     <title>Starbucks Clone</title>
     
     <link rel="stylesheet" href="style.css">
-    <script src='script.js' defer></script>
 </head>
+<script src='script.js' defer></script>
+<script src="https://use.fontawesome.com/527a190133.js"></script>
+
 <body>
     
-    <div class='header'>
+    <div class='header' id="myHeader">
 
             <ul class='nav-links'>
                 <li><a href='#'><img class='logo'src="images/logo.png" alt="logo"></a></li>
-                <li><a href='#'>Menu</a></li>
-                <li><a href='#'>Rewards</a></li>
-                <li><a href='#'>Gift Cards</a></li>
+                <li id="links"><a href='#'>Menu</a></li>
+                <li id="links"><a href='#'>Rewards</a></li>
+                <li id="links"><a href='#'>Gift Cards</a></li>
             </ul> 
           
             <ul class='nav-links'>
-                <li><a href="">Find a Store</a></li>
-                <li><button>Sign In</button></li>
-                <li><button id='joinNow'>Join Now</button></li>
+                <li id="links"><a href="">Find a Store</a></li>
+                <li id="links"><button>Sign In</button></li>
+                <li id="links"><button id='joinNow'>Join Now</button></li>
             </ul>
 
-            
-            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </a>
     </div>
 
     

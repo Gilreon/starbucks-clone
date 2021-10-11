@@ -30,7 +30,24 @@ font-family: 'Noto Sans JP', sans-serif;
     margin-bottom: 35px;
     padding-right: 0;
     padding-left: 0;
-    
+
+        .icon {
+            position: absolute;
+            display: none;
+            right: 1rem;
+            top: .75rem;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 21px;
+
+            .bar {
+                height: 3px;
+                width: 100%;
+                background: white;
+                border-radius: 10px;
+            }
+        }
     
 }
 
@@ -210,9 +227,7 @@ body {
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
-        
-
-           
+    
 
         }
         
@@ -799,7 +814,26 @@ button:hover {
  @media (max-width: 800px) {
     .header {
         
+        #links {
+            display: none;
+          
+        }
+
+        .responsive{
+
+            a {
+                display: inline;
+            }
+        }
+
+        .icon {
+            display: flex;
+            position: absolute;
+            top: 65px;
+        }
+
     }
+
  }
 
 // Large devices (desktops, 992px and up)

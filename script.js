@@ -14,3 +14,13 @@ tabs.forEach(tab => {
     target.classList.add('active')
   })
 })
+
+function myFunction() {
+  let hamburger = document.getElementById("myHeader");
+  if (hamburger.className === 'header') {
+    hamburger.className += 'responsive';
+
+  } else {
+    hamburger.className = 'header';
+  }
+}
